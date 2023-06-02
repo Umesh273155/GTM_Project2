@@ -1,0 +1,92 @@
+ .login-upper-img{ 
+    background-image: url("../../../public/upper.png"); 
+ background-repeat: no-repeat;
+  background-size: 17rem;
+  height: 17rem;
+ } 
+ body{
+    background-color: #fff;
+ }
+
+.login-lower-img{
+   background-image: url("../../../public/lower.png");
+   background-repeat: no-repeat;
+   background-size: 17rem;
+   background-position: 5.2rem 0;
+   height: 15rem; 
+   position: absolute;
+    bottom: 0;
+   right: 0rem;
+   z-index: -1;
+ }
+ .signup{
+  position: relative;
+  width: 30rem;
+    height: 26rem;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  position: absolute;
+  /* border-top:1px solid grey; */
+top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+.login-heading-main{
+font-family: sans-serif;
+  font-style: normal;
+  font-weight: 600;
+ color: #4F4F4F;
+  font-size: 1.5rem;
+    position: absolute;
+  margin-top: -4rem;
+   margin-left: 4.5rem;
+}
+ .login-heading-primary{
+display: flex;
+justify-content: center;
+ color: #667085;
+  font-family: sans-serif;
+  font-size: 1rem;
+ margin-top: 3rem;
+}
+ .login-primary-2{
+  position: absolute;
+top: 4.5rem;
+}
+.login-form-input{
+ margin-top: 2.5rem;
+margin-left: 7.5rem;
+}
+.login-chooseState, .login-phone{
+  border: 0.5px solid #A7A7A7;
+    border-radius: 4px;
+height: 2.5rem;
+width: 15rem;
+  margin-top: 0.4rem;
+ font-size: 0.9rem;
+ }
+.login-submit-btn{
+   background-color: #2D88D4;
+    color:#ffffff;
+border: none;
+height: 2.5rem;
+ width: 15rem;
+ border-radius: 5px;
+  margin-left: 7.5rem;
+   margin-top: 2rem;
+}
+.login-already{
+   color: #667085;
+   font-style: normal;
+   font-weight: 400;
+  font-size: 0.8rem;
+   margin-left: 8.5rem;
+   margin-top: 1rem;
+ }
+ .login-already-1{
+   color: #2D88D4;
+ }
+ .login input::placeholder{
+   position: absolute;
+    top: 12px;
+    left: 1rem;
+ }

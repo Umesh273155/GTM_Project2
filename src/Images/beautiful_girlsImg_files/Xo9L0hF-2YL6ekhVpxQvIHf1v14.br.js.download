@@ -1,0 +1,1 @@
+var searchForm,content;_G.JCache&&(searchForm=_ge(keyMap.SearchForm),_G.SRF=searchForm&&searchForm.outerHTML,content=_ge(keyMap.Content),content||(content=_ge("sw_content")),_G.CNT=content?content.outerHTML:null)

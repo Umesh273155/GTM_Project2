@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.star-icons {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+.icons-star {
+  margin-right: 5px;
+  margin-top: 5px;
+  width: 25px;
+  height: 25px;
+}
+.Each_user_details_box {
+  width:295px;
+  margin-right: 10px;
+ height:31.2rem;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.1);
+  padding-right:5px; 
+margin-top:0px;
+  margin-left: 25%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.users-cards {
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.about- {
+  text-align: left;
+
+  margin-left: 18%;
+  height: auto;
+}
+.age-gender-box {
+  height: auto;
+
+  display: flex;
+  text-align: left;
+  margin-left: 18%;
+  justify-content: space-between;
+  padding-right: 40px;
+}
+.row {
+  display: flex;
+  width: 95%;
+  border: 1px solid #06aed5;
+  height: 24px;
+  border-radius: 5px;
+
+  text-align: left;
+  margin: 5px 10px;
+  margin-top: 15px;
+}
+.para1st {
+  background-color: #06aed5;
+  color: white;
+  margin-left: 0px;
+  width: 100px;
+  margin-right: 10px;
+}
+.para3rd {
+  border: 1px solid #06aed5;
+  margin-left: 10px;
+  border-top: 0;
+  border-bottom: 0;
+  margin-right: 10px;
+  padding-left: 10px;
+  padding-right: 5px;
+}
+
+.R1 {
+  margin-left: 20px;
+}
+.R2 {
+  margin-left: 15px;
+  padding: 4px;
+}
+.R3 {
+  margin-left: 13px;
+  width: 36px;
+}
+.R4 {
+  margin-left: 10px;
+  padding: 4px;
+}
+.footer-icons {
+  width: 25px;
+  height: 25px;
+  margin-top: 10px;
+  margin-right: 26px;
+}
+.btn {
+  background-color: #fff;
+  border: 0px;
+  border-radius: 50%;
+  text-align: center;
+}
+.btn:active {
+  border: 1px solid yellow;
+}
+._user_box {
+  padding-top: 20px;
+  text-align: center;
+}
+.footer-icons-box {
+  text-align: center;
+}
+.cap-phone-comment-box {
+  display: flex;
+  justify-content: center;
+}
+.icons_size {
+  margin-right: 16px;
+  width: 40px;
+
+  height: 40px;
+}
+
+
+@media(max-width:1030px){
+  .Each_user_details_box{
+    width:17.5rem;
+    height:480px;
+  
+    padding-bottom:20px;
+    margin-right:4px;
+    padding-left:0;
+    padding-right:0;
+    margin-left:20rem;
+    border:1px solid rgb(168, 167, 167);
+  };
+   
+   }

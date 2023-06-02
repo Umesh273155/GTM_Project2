@@ -1,0 +1,1 @@
+_w.keyMap={Content:"b_content",ImageMaskContent:"b_content",ImageDetailMaskContent:"detail_canvas",VideoMaskContent:"vm_res",SearchForm:"sb_form",SBoxId:"sb_form_q",Notification:"b_notificationContainer",Identity:"id_h",Prefix:"b_",RmsDefer:"aRmsDefer",AutoSug:"sa_as",Timeout:1e4,LangSwitch:"langChange",ASContainer:"sw_as"}

@@ -1,0 +1,105 @@
+ *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+ }  
+
+
+.card-nav-Box{
+     width:24vw; 
+
+    /* height:100vh; */
+    /* margin-right:0px; */
+     background-color: #152259;
+     /* margin-right:0; */
+     /* position:relative; */
+     /* margin-bottom:20px; */
+     height:38rem;
+     /* margin:auto; */
+     margin-bottom:0;
+}
+.cap-box{
+    display:flex;
+    justify-content:center;
+
+}
+
+
+
+.graduate-cap{
+ 
+    width:85px;
+    height:85px;
+   
+    
+   
+
+    margin-top:20px;
+    margin-bottom:4px;
+}
+.dashBoard_btn{
+    width:150px;
+    height:40px;
+    background-color: #06AED5;
+    color:white;
+    border-radius: 6px;;
+    margin-top: 0px;
+    
+}
+
+
+.home_{
+    width:16px;
+    height:16px;
+    margin-right:5px;
+}  
+.h{
+    margin-top:10px;
+
+}
+.navlink{
+   text-align: left;
+   margin-left:25px;
+}
+.feature{
+    margin-top:35px;
+
+}
+.feature_new{
+    display:flex;
+}
+
+.new{
+  
+  margin-right:10%;
+    margin-top:40px;
+    width:80px;
+    height:35px;
+
+}
+
+.parax{
+    text-align:left;
+    margin-left:179px;
+   color: rgb(75, 75, 75);
+}
+.h{
+    width:180px;
+     padding-top:5px; 
+     padding-left:10px;
+    border-radius: 10px; 
+     height:30px;
+} 
+.h:hover{
+  background-color:#06AED5;
+  width:180px;
+ 
+  border-radius: 10px;
+  
+}
+@media(max-width:1024px){
+    .card-nav-Box{
+        width:20vw; 
+    
+    }
+}
